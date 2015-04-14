@@ -6,6 +6,21 @@ among other things.
 
 # Installation
 
+Git clone this repo into your modules/ directory, then be sure to install the dependencies with composer
+
+```
+cd /path/to/simplesaml/modules/
+git clone https://github.com/rgeyer/simplesamlphp-authgoogleoauth2.git authgoogleoauth2 
+cd authgoogleoauth2
+# Install composer, skip this step if you've already got it
+curl -s https://getcomposer.org/installer | php
+# Install the authgoogleoauth2 module dependencies, you can just do `composer install` if you've already
+# installed composer globally
+php composer.phar install
+```
+
+# Configuration
+
 You'll first need to go to the Google developer console and create an application which your users will be asked to
 "trust" when they use this authentication mechanism. This is the same as the typical OAuth process when you enable
 an application to access your google account information. In this case, the only thing this application accesses about
