@@ -1,5 +1,5 @@
 {
-  "name": "rgeyer/simplesamlphp-authgoogleoauth2",
+  "name": "rgeyer/simplesamlphp-module-authgoogleoauth2",
   "description": "A SimpleSAMLPHP module which allows authentication against Google OAuth2",
   "type": "simplesamlphp-module",
   "keywords": ["google","oauth2","simplesamlphp"],
